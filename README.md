@@ -1,4 +1,4 @@
-# hello-vue3
+# international-code-along
 
 ## Project setup
 ```
