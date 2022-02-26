@@ -1,7 +1,7 @@
 <template>
   <div class="product-wrapper">
     <div class="product-image">
-      <img src="../assets/desk.jpeg">
+      <img src="./../assets/desk.jpeg">
     </div>
     <div class="product-description">
       <h2>JOBBIG</h2>
@@ -33,11 +33,6 @@ export default {
   },
   props: {
     darkMode: Boolean
-  },
-  computed: {
-    personalShopper() {
-      return this.darkMode ? '../assets/victorian-girl.png' : '../assets/hip-people.jpeg';
-    }
   }
 };
 </script>
