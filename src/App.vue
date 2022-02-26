@@ -6,20 +6,21 @@
       </div>
     </div>
     <div class="app-content">
-      <h1>HEMMA</h1>
-      <Product :darkMode="darkMode" />
+      <div class="top">
+        <h1>Hemma</h1>
+        <router-link to="/bedroom">Bedroom</router-link>
+        <router-link to="/office">Office</router-link>
+        <router-link to="/kitchen">Kitchen</router-link>
+      </div>
+      <router-view></router-view>
     </div>
   </div>
 </template>
 
 <script>
-import Product from './components/Product.vue';
 
 export default {
   name: 'App',
-  components: {
-    Product
-  },
   data: function () {
     return {
       darkMode: false
@@ -39,6 +40,13 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Overpass:wght@400;700;900&display=swap');
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #f7f7f5;
+}
 
 .app-wrapper {
   width: 100%;
@@ -63,7 +71,9 @@ export default {
 h1 {
   font-size: 8em;
   font-family: 'Overpass', sans-serif;
-  font-weight: 900;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color: #40ad63;
 }
 
 #app {
@@ -80,6 +90,85 @@ h1 {
   background: #2c3e50;
   font-family: 'IM Fell English', sans-serif;
   color: #ffffff;
+}
+
+.darkMode .product-price,
+.darkMode .personal-shopper p {
+  color: #f4f5bc;
+}
+
+a, a:visited {
+  margin-right: 30px;
+  color: #ff4284;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.top {
+  margin-bottom: 100px;
+}
+
+.product-image {
+  width: 40%;
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: contain;
+}
+
+.product-wrapper {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.product-description {
+  padding: 0 20px;
+  text-align: left;
+  width: 60%;
+}
+
+h2 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  color: #40ad63;
+}
+
+p {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+}
+
+.product-price {
+  float: right;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  color: #2c7842;
+}
+
+.personal-shopper {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.personal-shopper img {
+  width: 300px;
+}
+
+.personal-shopper p {
+  text-align: right;
+  font-size: 40px;
+  font-style: italic;
+  margin-right: 30px;
+  color: #757458;
 }
 
 </style>
