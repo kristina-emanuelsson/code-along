@@ -14,7 +14,7 @@
         eget dui.
       </p>
       <div class="product-price">
-        129 :-
+        <span>Only</span>129 €
       </div>
       <div class="personal-shopper">
         <p>"What a great piece! Everyone needs a MATIG!"</p>

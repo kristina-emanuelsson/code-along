@@ -14,7 +14,7 @@
         eget dui.
       </p>
       <div class="product-price">
-        57 999 :-
+        <span>Only</span>57 999 €
       </div>
       <div class="personal-shopper">
         <p>"What a great piece! Everyone needs a JOBBIG!"</p>
