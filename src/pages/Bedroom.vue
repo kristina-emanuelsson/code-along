@@ -27,10 +27,6 @@
 <script>
 export default {
   name: 'Bedroom',
-  data: function () {
-    return {
-    };
-  },
   props: {
     darkMode: Boolean
   },
@@ -43,5 +39,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

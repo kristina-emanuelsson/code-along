@@ -27,10 +27,6 @@
 <script>
 export default {
   name: 'Kitchen',
-  data: function () {
-    return {
-    };
-  },
   props: {
     darkMode: Boolean
   },

@@ -27,10 +27,6 @@
 <script>
 export default {
   name: 'Office',
-  data: function () {
-    return {
-    };
-  },
   props: {
     darkMode: Boolean
   },
