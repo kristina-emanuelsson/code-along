@@ -18,7 +18,7 @@
       </div>
       <div class="personal-shopper">
         <p>"What a great piece! Everyone needs a GÖMMA!"</p>
-        <img src="./../assets/happy_guy.png">
+        <img :src="getImg('happy_guy.png')">
       </div>
     </div>
   </div>
@@ -33,6 +33,11 @@ export default {
   },
   props: {
     darkMode: Boolean
+  },
+  methods: {
+    getImg(img) {
+      return require('./../assets/' + img);
+    }
   }
 };
 </script>
