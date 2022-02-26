@@ -151,6 +151,12 @@ p {
   color: #2c7842;
 }
 
+.product-price span {
+  font-size: 24px;
+  color: #40ad63;
+  margin-right: 15px;
+}
+
 .personal-shopper {
   margin-top: 100px;
   display: flex;
