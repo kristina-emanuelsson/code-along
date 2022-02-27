@@ -92,9 +92,15 @@ h1 {
   color: #ffffff;
 }
 
+.darkMode h1 {
+  font-size: 7em;
+  color: #adf274;
+  text-shadow: 4px 4px #ff4069;
+}
+
 .darkMode .product-price,
 .darkMode .personal-shopper p {
-  color: #f4f5bc;
+  color: #adf274;
 }
 
 a, a:visited {
