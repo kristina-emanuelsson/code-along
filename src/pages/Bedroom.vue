@@ -17,7 +17,7 @@
         <span>Only</span>100 788 €
       </div>
       <div class="personal-shopper">
-        <p>"What a great piece! Everyone needs a GÖMMA!"</p>
+        <p>"What a fantastic piece!"</p>
         <img :src="getImg('happy_guy.png')">
       </div>
     </div>

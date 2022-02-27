@@ -17,7 +17,7 @@
         <span>Only</span>129 €
       </div>
       <div class="personal-shopper">
-        <p>"What a great piece! Everyone needs a MATIG!"</p>
+        <p>"What a fantastic piece!"</p>
         <img :src="getImg('happy_guy.png')">
       </div>
     </div>
